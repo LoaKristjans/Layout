@@ -5,14 +5,51 @@ body{
     background-color: rgba(243, 202, 100, 0.32);
 }
 
-.container {
+.header-title {
+    position: relative;
+    left: 12cm;
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+}
+.container1 div, .container2 div{
+    border: 1px rgba(243, 202, 100, 0.32);
+    padding: 10px;
+}
+
+.container1 {
     display:flex;
+    padding: 5px;
+}
+.first-image{
+    flex:1;
+    order:1;
+}
+.second-image{
+    flex:2;
+    order:1;
 }
 
-.about {
-    
+.container2 {
+    display: flex;
+    padding: 5px;
+    width: 91%;
+    height: 90%;
+}
+.third-image{
+    flex:3;
+    order:1;
+}
+.fourth-image{
+    flex:4;
+    order: 2;
 }
 
-.container > :nth-child(4) {
-    background-color: rgba(255, 219, 97, 0.92) 
+.text { 
+    color: blue;
+    position: relative;
+    bottom: 11cm;
+    left: 20cm;
+}
+.container2 {
+
 }
