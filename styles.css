@@ -53,3 +53,7 @@ body{
 .container2 {
 
 }
+
+.smaller {
+    font-size: 60%;
+}
