@@ -3,6 +3,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: rgba(243, 202, 100, 0.32);
+    width: 40%;
 }
 
 .header-title {
@@ -10,6 +11,7 @@ body{
     left: 12cm;
     margin-top: 2cm;
     margin-bottom: 1cm;
+    size: 110%;
 }
 .container1 div, .container2 div{
     border: 1px rgba(243, 202, 100, 0.32);
@@ -45,15 +47,44 @@ body{
 }
 
 .text { 
-    color: blue;
+    color: rgb(54, 111, 38, 1);
     position: relative;
     bottom: 11cm;
-    left: 20cm;
+    left: 185mm;
+    padding-top: 15mm
 }
-.container2 {
 
+.content {
+    position: relative;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 80%;
 }
 
 .smaller {
     font-size: 60%;
+}
+
+.Footer {
+    position: relative;
+    left: 12cm;
+    margin-top: -5cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Date {
+    font-size: 200%;
+    position: relative;
+    left: 12cm;
+    margin-top: -5cm;
+    line-height: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.address {
+    font-size: 110%;
+    position: relative;
+    left: 13cm;
+    margin-top: 1cm;
+    line-height: 50%;
+    font-family: Impact, fantasy;
 }
