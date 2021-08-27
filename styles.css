@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: rgba(243, 202, 100, 0.32);
+}
+
+.container {
+    display:flex;
+}
+
+.about {
+    
+}
+
+.container > :nth-child(4) {
+    background-color: rgba(255, 219, 97, 0.92) 
+}
